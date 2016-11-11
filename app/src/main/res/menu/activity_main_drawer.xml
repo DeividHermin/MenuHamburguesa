@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_circunferencias"
+            android:title="Dibujar Circunferencias" />
+        <item
+            android:id="@+id/nav_rectangulos"
+            android:title="Dibujar Rectangulos" />
+        <item
+            android:id="@+id/nav_ovalos"
+            android:title="Dibujar Ovalos" />
+
+    </group>
+
+    <item android:title="ProgressBar">
+        <menu>
+            <item
+                android:id="@+id/nav_ocultar"
+                android:title="Mostrar/Ocultar" />
+            <item
+                android:id="@+id/nav_pulsar"
+                android:title="Valor++" />
+            <item
+                android:id="@+id/nav_hilo"
+                android:title="Hilo" />
+        </menu>
+    </item>
+
+</menu>
